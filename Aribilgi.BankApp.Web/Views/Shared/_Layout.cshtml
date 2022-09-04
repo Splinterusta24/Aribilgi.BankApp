@@ -8,10 +8,21 @@
 </head>
 <body>
     <div class="container lead">
+
         @RenderBody()
+
     </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+
+        function OpenModalPopup(fromAccountId) {
+            $("#mdlTransferPopup").modal("show");
+            $("#txtFromAccountId").val(fromAccountId);
+
+        }
+
+    </script>
 </body>
 </html>

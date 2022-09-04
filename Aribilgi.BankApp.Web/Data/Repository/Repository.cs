@@ -22,6 +22,11 @@ namespace Aribilgi.BankApp.Web.Data.Repository
             _context.SaveChanges();
         }
 
+        public bool Any(Expression<Func<T, bool>> predicate)
+        {
+            return _context.Set<T>().Any(predicate);
+        }
+
         public void Delete(T item)
         {
             _context.Set<T>().Remove(item);

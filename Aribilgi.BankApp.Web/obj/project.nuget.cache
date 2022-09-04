@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dWAOlzowShmZz/3iL4zwxrbG08fD991T43dwwgQVYEZhmOW3I7V+B23k/rYAlin83u9Lh01ddtgzdXnA1q6sIg==",
+  "dgSpecHash": "b1M5IicgE1HAHHBficLEmDx1bnYigciDgLr3DIvxg1glRfBZ9255zby1cTTdO/Ua64FpD2UQW/hAprEBhPxDWA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ARIBILGI\\Desktop\\Aribilgi.BankApp\\Aribilgi.BankApp.Web\\Aribilgi.BankApp.Web.csproj",
   "expectedPackageFiles": [
@@ -111,11 +111,7 @@
     "C:\\Users\\ARIBILGI\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\ARIBILGI\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\ARIBILGI\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\ARIBILGI\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\ARIBILGI\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
-    "C:\\Users\\ARIBILGI\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\ARIBILGI\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\ARIBILGI\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\ARIBILGI\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

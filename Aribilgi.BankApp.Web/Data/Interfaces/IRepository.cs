@@ -13,6 +13,7 @@ namespace Aribilgi.BankApp.Web.Data.Interfaces
         void Add(T item);
         void Update(T item);
         void Delete(T item);
+        bool Any(Expression<Func<T, bool>> predicate);
       
 
     }
