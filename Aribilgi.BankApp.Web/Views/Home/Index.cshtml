@@ -1,0 +1,40 @@
+﻿@using Aribilgi.BankApp.Web.Data.Entities
+@model List<ApplicationUser>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+
+    <table class="mt-3 table table-hover table-bordered">
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Account Count</th>
+                <th></th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            @{
+                foreach (ApplicationUser item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Surname</td>
+                        <td>
+                            <getAccountCount application-user-id="@item.Id"></getAccountCount>
+                        </td>
+                        <td>
+                            <a href="/Account/Index?UserId=@item.Id" class="btn-sm btn-primary">Create New Account</a>
+
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
